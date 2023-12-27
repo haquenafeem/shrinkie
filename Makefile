@@ -1,4 +1,7 @@
 run:
 	go run cmd/*.go
 
-.PHONY: run
+cp-env:
+	cp .env.default .env
+
+.PHONY: run cp-env

@@ -8,7 +8,7 @@
 # Shrinkie
 A url shortner project
 
-# Usage
+## Run
 ```shell
 cp .env.default .env
 ```
@@ -18,5 +18,13 @@ go mod tidy
 ```
 
 ```shell
-    make run
+ make run
+```
+
+## Endpoints
+```shell
+POST   /shrink
+GET    /
+GET    /:id
+GET    /list
 ```

@@ -21,6 +21,10 @@ go mod tidy
  make run
 ```
 
+## Demo
+
+https://github.com/haquenafeem/shrinkie/assets/49017222/f8b17a13-8ddc-450c-bf80-94202a2b5c1d
+
 ## Endpoints
 ```shell
 POST   /shrink
